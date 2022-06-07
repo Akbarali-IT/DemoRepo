@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name = "Suite">
+
+<test name = "AnnotationVerify">
+     <classes> 
+       <class name = "TestngBasic.BeforandAfterAnnotation"/>
+     </classes>
+  </test>  
+  
+  <!-- <test name = "AnnotationTest" enabled ="false">
+     <classes> 
+       <class name = "FrameworkSessionone.ClassA"/>
+       <class name = "FrameworkSessionone.ClassB"/>
+       <class name = "FrameworkSessionone.ClassC"/>
+       <class name = "FrameworkSessionone.Excercise"/>
+      // <class name = "FrameworkSessionone.Exercisee"/>
+     </classes>
+  </test>  
+  
+  
+  <test name = "Parameterization" enabled ="false">
+  
+  <parameter name = "empname"  value ="rohit"/>
+  <parameter name = "empage"  value ="25"/>
+  <classes>
+  <class name = "FrameworkSessionone.Parameterization"/>
+  </classes>
+  </test> -->
+  
+  
+  <!-- <test name = "GroupingConcept" enabled="false">
+  <groups>
+  <define name = "RunMethod">
+   <include name = "groupone"/>
+  </define>
+  <run>
+  <include name = "RunMethod"/>
+  </run>
+  </groups> 
+  <classes>
+   <class name = "FrameworkSessionone.Excercise"/>
+  </classes>
+  </test>
+  
+  
+  <test name = "parameterize" enabled ="false">
+  <parameter name = "name" value = "Ajay"/>
+  <classes>
+  <class name = "FrameworkSessionone.Excercise"/>
+  </classes>
+  </test>
+  
+  
+  <test name = "DataProvider" enabled ="false">
+  
+  <classes>
+  <class name = "FrameworkSessionone.DataProvder"/>
+  </classes>
+  </test>
+  
+  <test name = "Invocation" enabled ="false">
+  <classes>
+  <class name = "FrameworkSessionone.Invocation"/>
+  </classes>
+  </test>
+  
+  <test name = "Assertion" enabled ="false">
+  <classes>
+  <class name = "FrameworkSessionone.Assertion"/>
+  </classes>
+  </test> -->
+  
+  
+  <!-- <test name = "Invocation" enabled ="false">
+  <classes>
+  <class name = "FrameworkSessionone.Invocation"/>
+  </classes>
+  </test> -->
+  
+  
+  </suite> 
+  
+  
+  
+  
+ 
