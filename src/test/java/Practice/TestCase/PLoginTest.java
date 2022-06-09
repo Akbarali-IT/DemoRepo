@@ -55,7 +55,7 @@ public class PLoginTest extends BaseClass
 	public void validatethirdSliderTest()
 	{
 		boolean thirdslidercheck = plogin.verifyFirstSlideImage();
-		Assert.assertTrue(thirdslidercheck);
+		Assert.assertTrue(thirdslidercheck); 
 	}
 	
 	
